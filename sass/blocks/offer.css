@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@300;400;500;700;900&family=Yellowtail&display=swap");
+.offer__banner {
+  margin: 155px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1400.489px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.banner-one {
+  width: 682.244px;
+  height: 367px;
+  padding-top: 109px;
+  padding-left: 54.88px;
+  border-radius: 30px;
+  background: url("../../images/offer one.jpg");
+}
+
+.banner-two {
+  width: 682.244px;
+  height: 367px;
+  padding-top: 109px;
+  padding-left: 54.88px;
+  border-radius: 30px;
+  background: url("../../images/offer two.jpg");
+}
+
+.banner__title-first {
+  color: #FFFFFF;
+  font-family: "Yellowtail", cursive;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.banner__title-description-one {
+  width: 277.633px;
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.banner__title-description-two {
+  width: 260.633px;
+  color: #274C5B;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.banner__title-second {
+  color: #7EB693;
+  font-family: "Yellowtail", cursive;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+/*# sourceMappingURL=offer.css.map */

@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@300;400;500;700;900&family=Yellowtail&display=swap");
+.offer__banner {
+  margin: 155px auto;
+  display: flex;
+  width: 1400.489px;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 420px) {
+  .offer__banner {
+    width: 420px;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+.banner-one {
+  width: 682.244px;
+  height: 367px;
+  padding-top: 109px;
+  padding-left: 54.88px;
+  border-radius: 30px;
+  background: url("../../images/offer one.jpg");
+}
+@media (max-width: 420px) {
+  .banner-one {
+    width: 390px;
+    height: 190px;
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+}
+
+.banner-two {
+  width: 682.244px;
+  height: 367px;
+  padding-top: 109px;
+  padding-left: 54.88px;
+  border-radius: 30px;
+  background: url("../../images/offer two.jpg");
+}
+@media (max-width: 420px) {
+  .banner-two {
+    width: 390px;
+    height: 190px;
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+}
+
+.banner__title-first {
+  color: #FFFFFF;
+  font-family: "Yellowtail", cursive;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@media (max-width: 420px) {
+  .banner__title-first {
+    font-size: 24px;
+  }
+}
+
+.banner__title-description-one {
+  width: 277.633px;
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+@media (max-width: 420px) {
+  .banner__title-description-one {
+    font-size: 30px;
+  }
+}
+
+.banner__title-description-two {
+  width: 260.633px;
+  color: #274C5B;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+@media (max-width: 420px) {
+  .banner__title-description-two {
+    font-size: 30px;
+  }
+}
+
+.banner__title-second {
+  color: #7EB693;
+  font-family: "Yellowtail", cursive;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@media (max-width: 420px) {
+  .banner__title-second {
+    font-size: 24px;
+  }
+}
